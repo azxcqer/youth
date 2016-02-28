@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -28,6 +28,9 @@
             <string>///init vars
 room_speed=60;
 backgrounder()
+
+//i would set the sprite to this from the start, but it kinda doesn't let me put stuff in the room properly
+sprite_index=s_hud
 </string>
           </argument>
         </arguments>
