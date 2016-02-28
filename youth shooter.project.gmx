@@ -15,12 +15,14 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\backgrounder.gml</script>
+    <script>scripts\shooting.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\ct_init</object>
     <object>objects\ct_main</object>
     <object>objects\o_player</object>
     <object>objects\o_p_bullet</object>
+    <object>objects\c_bullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_init</room>
