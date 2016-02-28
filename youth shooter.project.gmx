@@ -22,6 +22,10 @@
     <object>objects\o_player</object>
     <object>objects\o_p_bullet</object>
   </objects>
+  <rooms name="rooms">
+    <room>rooms\r_init</room>
+    <room>rooms\r_game</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
