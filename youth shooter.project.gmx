@@ -7,6 +7,11 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sp_ship</sprite>
+    <sprite>sprites\sp_en1</sprite>
+    <sprite>sprites\sp_en2</sprite>
+    <sprite>sprites\sp_en3</sprite>
+    <sprite>sprites\sp_en4</sprite>
+    <sprite>sprites\sp_en5</sprite>
     <sprite>sprites\sp_bullet</sprite>
   </sprites>
   <backgrounds name="background">
