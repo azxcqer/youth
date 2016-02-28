@@ -5,8 +5,10 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\sp_ship</sprite>
+    <sprite>sprites\sp_bullet</sprite>
+  </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
   </backgrounds>
@@ -17,6 +19,8 @@
   <objects name="objects">
     <object>objects\ct_init</object>
     <object>objects\ct_main</object>
+    <object>objects\o_player</object>
+    <object>objects\o_p_bullet</object>
   </objects>
   <help>
     <rtf>help.rtf</rtf>
