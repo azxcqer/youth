@@ -14,6 +14,10 @@
   <scripts name="scripts">
     <script>scripts\backgrounder.gml</script>
   </scripts>
+  <objects name="objects">
+    <object>objects\ct_init</object>
+    <object>objects\ct_main</object>
+  </objects>
   <help>
     <rtf>help.rtf</rtf>
   </help>
