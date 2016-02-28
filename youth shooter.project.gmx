@@ -31,6 +31,7 @@
     <object>objects\o_p_bullet</object>
     <object>objects\c_bullet</object>
     <object>objects\o_wall</object>
+    <object>objects\o_enemy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_init</room>
