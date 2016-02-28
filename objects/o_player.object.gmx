@@ -75,7 +75,7 @@ cooldown=firerate
             <kind>1</kind>
             <string>///key capture
 if keyboard_check(vk_right)
-or keyboard_check(ord("d"))
+or keyboard_check(ord("D"))
 {
     right = 1
 }
@@ -85,7 +85,7 @@ or keyboard_check(ord("d"))
     }
 
 if keyboard_check(vk_left)
-or keyboard_check(ord("a"))
+or keyboard_check(ord("A"))
 {
     left = -1
 }
@@ -95,9 +95,9 @@ or keyboard_check(ord("a"))
     }
 
 if keyboard_check(vk_space)
-or keyboard_check(ord("j"))
-or keyboard_check(ord("k"))
-or keyboard_check(ord("l"))
+or keyboard_check(ord("J"))
+or keyboard_check(ord("K"))
+or keyboard_check(ord("L"))
 {
     shoot=true
 }
