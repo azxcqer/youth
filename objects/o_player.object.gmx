@@ -127,7 +127,12 @@ or keyboard_check(ord("L"))
             <kind>1</kind>
             <string>///movement
 dir=right+left
-x+=sign(dir)*spd
+var a = sign(dir)*spd;
+
+if !(place_meeting(x+a,y,o_wall))
+{
+    x+=a
+}
 </string>
           </argument>
         </arguments>
