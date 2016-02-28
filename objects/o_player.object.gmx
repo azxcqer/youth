@@ -155,12 +155,18 @@ if !(place_meeting(x+a,y,o_wall))
             <kind>1</kind>
             <string>///shoot
 shooting_step()
+
+var a = instance_number(o_p_bullet);
+
 if ready
     {
     if shoot
     {
-        shooting()
-    }
+     if a &lt; max_bullets
+        {
+            shooting()
+        }
+     }
 }
 </string>
           </argument>
