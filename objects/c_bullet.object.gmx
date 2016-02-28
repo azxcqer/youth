@@ -50,6 +50,11 @@ b_spd=1
           <argument>
             <kind>1</kind>
             <string>y+=b_dir*b_spd
+
+if place_meeting(x,y,o_wall)
+{
+    instance_destroy()
+}
 </string>
           </argument>
         </arguments>
