@@ -57,6 +57,11 @@
     <instance objName="o_wall" x="0" y="0" name="inst_AF863F86" locked="0" code="" scaleX="1" scaleY="30" colour="4294967295" rotation="0"/>
     <instance objName="o_wall" x="6" y="2" name="inst_709DD82F" locked="0" code="" scaleX="18" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_wall" x="6" y="142" name="inst_B54BD15C" locked="0" code="" scaleX="18" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_bar1" x="5" y="144" name="inst_07DA71D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_bar2" x="28" y="144" name="inst_07168AB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_bar3" x="50" y="144" name="inst_CBA0974B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_bar4" x="73" y="144" name="inst_BF783DB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_bar5" x="95" y="144" name="inst_64A5BF5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
