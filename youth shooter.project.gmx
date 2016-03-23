@@ -6,23 +6,29 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sp_ship</sprite>
-    <sprite>sprites\sp_en1</sprite>
-    <sprite>sprites\sp_en2</sprite>
-    <sprite>sprites\sp_en3</sprite>
-    <sprite>sprites\sp_en4</sprite>
-    <sprite>sprites\sp_en5</sprite>
-    <sprite>sprites\sp_bullet</sprite>
-    <sprite>sprites\sp_bullet2</sprite>
     <sprite>sprites\s_wall</sprite>
     <sprite>sprites\s_hud</sprite>
-    <sprite>sprites\bar_mid_def</sprite>
-    <sprite>sprites\bar_def</sprite>
-    <sprite>sprites\bar1</sprite>
-    <sprite>sprites\bar2</sprite>
-    <sprite>sprites\bar3</sprite>
-    <sprite>sprites\bar4</sprite>
-    <sprite>sprites\bar5</sprite>
+    <sprites name="ships">
+      <sprite>sprites\sp_ship</sprite>
+      <sprite>sprites\sp_en1</sprite>
+      <sprite>sprites\sp_en2</sprite>
+      <sprite>sprites\sp_en3</sprite>
+      <sprite>sprites\sp_en4</sprite>
+      <sprite>sprites\sp_en5</sprite>
+    </sprites>
+    <sprites name="bars">
+      <sprite>sprites\bar_def</sprite>
+      <sprite>sprites\bar1</sprite>
+      <sprite>sprites\bar_mid_def</sprite>
+      <sprite>sprites\bar2</sprite>
+      <sprite>sprites\bar4</sprite>
+      <sprite>sprites\bar5</sprite>
+      <sprite>sprites\bar3</sprite>
+    </sprites>
+    <sprites name="bullets">
+      <sprite>sprites\sp_bullet2</sprite>
+      <sprite>sprites\sp_bullet</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
@@ -31,16 +37,10 @@
   <scripts name="scripts">
     <script>scripts\backgrounder.gml</script>
     <script>scripts\shooting.gml</script>
+    <script>scripts\upgrade.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\ct_init</object>
-    <object>objects\ct_main</object>
-    <object>objects\o_player</object>
-    <object>objects\o_p_bullet</object>
-    <object>objects\o_e_bullet</object>
-    <object>objects\c_bullet</object>
     <object>objects\o_wall</object>
-    <object>objects\o_enemy</object>
     <objects name="bars">
       <object>objects\c_bar</object>
       <object>objects\o_bar1</object>
@@ -49,7 +49,20 @@
       <object>objects\o_bar4</object>
       <object>objects\o_bar5</object>
     </objects>
-    <object>objects\c_ship</object>
+    <objects name="ships">
+      <object>objects\c_ship</object>
+      <object>objects\o_player</object>
+      <object>objects\o_enemy</object>
+    </objects>
+    <objects name="controllers">
+      <object>objects\ct_main</object>
+      <object>objects\ct_init</object>
+    </objects>
+    <objects name="bullets">
+      <object>objects\c_bullet</object>
+      <object>objects\o_p_bullet</object>
+      <object>objects\o_e_bullet</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_init</room>
