@@ -33,25 +33,10 @@ right=0
 left=0
 dir=0
 
-//default values
-max_bullets_d = 3
-b_spd_d = 1
-firerate_d = 1*room_speed
-spd_d=1
-max_shield_d=0
 
 spd=spd_d
 
 max_shield=max_shield_d
-
-//shooting
-shoot=false
-b_dir=-1
-max_bullets=max_bullets_d
-b_spd=b_spd_d
-firerate=firerate_d
-ready = true
-cooldown=firerate
 </string>
           </argument>
         </arguments>

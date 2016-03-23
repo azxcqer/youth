@@ -28,25 +28,8 @@
             <string>///init
 event_inherited()
 dir=1
-
-//default values
-max_bullets_d = 0
-b_spd_d = 1
-firerate_d = 1*room_speed
-spd_d=1
-max_shield_d=0
-
-spd=spd_d
-down=4
-
-//shooting
-shoot=false
 b_dir=1
-max_bullets=max_bullets_d
-b_spd=b_spd_d
-firerate=firerate_d
-ready = true
-cooldown=firerate
+down=4
 </string>
           </argument>
         </arguments>
