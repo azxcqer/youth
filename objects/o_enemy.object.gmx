@@ -30,6 +30,7 @@ event_inherited()
 dir=1
 b_dir=1
 down=4
+sprite_index = irandom_range(sp_en1,sp_en5)
 </string>
           </argument>
         </arguments>
