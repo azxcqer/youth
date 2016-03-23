@@ -20,6 +20,7 @@ with (b)
     {
     b_dir = a.b_dir
     b_spd = a.b_spd
+    image_yscale=-b_dir
     }
 
 #define shooting_step
