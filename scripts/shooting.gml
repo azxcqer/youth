@@ -5,8 +5,17 @@ cooldown=firerate
 
 var a = id,
     b,
+    c,
+    d=object_index,
     
-b = instance_create(x,y,o_p_bullet)
+if d=o_player { 
+    c = o_p_bullet
+    }
+    else if d=o_enemy{
+        c = o_e_bullet
+    }   
+     
+b = instance_create(x,y,c)
 with (b)
     {
     b_dir = a.b_dir

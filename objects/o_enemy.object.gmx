@@ -101,12 +101,10 @@ if !(place_meeting(x+a,y,o_wall))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///death
-var inst = instance_place(x, y, o_p_bullet);
-if (inst != noone)
-{
-    with (inst) instance_destroy();
-    instance_destroy();
+            <string>///shooting
+shooting_step()
+if ready {
+    shooting()
 }
 </string>
           </argument>

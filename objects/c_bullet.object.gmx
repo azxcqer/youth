@@ -50,7 +50,7 @@ b_spd=1
           <argument>
             <kind>1</kind>
             <string>y+=b_dir*b_spd
-
+image_yscale=-b_dir
 if place_meeting(x,y,o_wall)
 {
     instance_destroy()
