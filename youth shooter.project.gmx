@@ -40,7 +40,10 @@
     <script>scripts\upgrade.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\o_wall</object>
+    <objects name="controllers">
+      <object>objects\ct_main</object>
+      <object>objects\ct_init</object>
+    </objects>
     <objects name="bars">
       <object>objects\c_bar</object>
       <object>objects\o_bar1</object>
@@ -54,15 +57,12 @@
       <object>objects\o_player</object>
       <object>objects\o_enemy</object>
     </objects>
-    <objects name="controllers">
-      <object>objects\ct_main</object>
-      <object>objects\ct_init</object>
-    </objects>
     <objects name="bullets">
       <object>objects\c_bullet</object>
       <object>objects\o_p_bullet</object>
       <object>objects\o_e_bullet</object>
     </objects>
+    <object>objects\o_wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_init</room>
