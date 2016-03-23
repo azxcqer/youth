@@ -47,6 +47,7 @@
       <object>objects\o_bar4</object>
       <object>objects\o_bar5</object>
     </objects>
+    <object>objects\c_ship</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_init</room>
