@@ -57,6 +57,11 @@ sprite_index=s_hud
 {
     game_end()
 }
+
+if keyboard_check_pressed(ord("R"))
+{
+    room_restart()
+}
 </string>
           </argument>
         </arguments>
