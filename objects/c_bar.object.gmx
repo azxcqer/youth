@@ -116,7 +116,9 @@ image_index=monitor
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(x+20,y, glaub)
+            <string>if global.debug {
+    draw_text(x+20,y, glaub)
+}
 </string>
           </argument>
         </arguments>
