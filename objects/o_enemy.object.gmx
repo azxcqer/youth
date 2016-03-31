@@ -31,6 +31,51 @@ dir=1
 b_dir=1
 down=4
 sprite_index = irandom_range(sp_en1,sp_en5)
+uping = true
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="1" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///addpalooza
+if uping {
+    switch (sprite_index) {
+        case sp_en1:
+            global.en1Kills++
+            break
+        case sp_en2:
+            global.en2Kills++
+            break
+        case sp_en3:
+            global.en3Kills++
+            break
+        case sp_en4:
+            global.en4Kills++
+            break
+        case sp_en5:
+            global.en5Kills++
+            break
+        default:
+            break
+    }
+}
 </string>
           </argument>
         </arguments>
