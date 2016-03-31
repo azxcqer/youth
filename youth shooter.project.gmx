@@ -16,6 +16,7 @@
       <sprite>sprites\sp_en3</sprite>
       <sprite>sprites\sp_en4</sprite>
       <sprite>sprites\sp_en5</sprite>
+      <sprite>sprites\sp_motherbase</sprite>
     </sprites>
     <sprites name="bars">
       <sprite>sprites\bar_def</sprite>
@@ -57,6 +58,7 @@
       <object>objects\c_ship</object>
       <object>objects\o_player</object>
       <object>objects\o_enemy</object>
+      <object>objects\o_motherbase</object>
     </objects>
     <objects name="bullets">
       <object>objects\c_bullet</object>
