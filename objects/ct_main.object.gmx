@@ -69,6 +69,19 @@ if keyboard_check_pressed(ord("R"))
 if keyboard_check_pressed(ord("T")) {
     debug = !debug
 }
+if debug{
+    if keyboard_check_pressed(ord("I")) {
+        global.en1Kills++
+    }
+    if keyboard_check_pressed(ord("Y")) {
+        if global.focus !=sp_en5 {
+            global.focus++
+        }
+        else {
+            global.focus=sp_en1
+        }
+    }
+}
 </string>
           </argument>
         </arguments>
