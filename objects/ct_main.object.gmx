@@ -28,6 +28,7 @@
             <string>///init vars
 room_speed=60;
 backgrounder()
+debug=false
 
 //i would set the sprite to this from the start, but it kinda doesn't let me put stuff in the room properly
 sprite_index=s_hud
@@ -61,6 +62,37 @@ sprite_index=s_hud
 if keyboard_check_pressed(ord("R"))
 {
     room_restart()
+}
+
+//debuggin stuff
+if keyboard_check_pressed(ord("T")) {
+    debug = !debug
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="64">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///debug sprite
+if debug {
+    draw_sprite(s_wall,0,0,0)
 }
 </string>
           </argument>
