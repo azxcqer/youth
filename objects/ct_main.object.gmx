@@ -29,6 +29,7 @@
 room_speed=60;
 backgrounder()
 debug=false
+global.focus=sp_en1
 
 //i would set the sprite to this from the start, but it kinda doesn't let me put stuff in the room properly
 sprite_index=s_hud

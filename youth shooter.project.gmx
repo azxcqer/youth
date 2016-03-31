@@ -65,6 +65,7 @@
     </objects>
     <object>objects\o_wall</object>
     <object>objects\o_limiter</object>
+    <object>objects\o_focus</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_init</room>
