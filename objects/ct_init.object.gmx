@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>counting_init()
+global.debug=false
+global.focus=sp_en1
 </string>
           </argument>
         </arguments>
