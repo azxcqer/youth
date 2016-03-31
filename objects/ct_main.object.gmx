@@ -28,7 +28,7 @@
             <string>///init vars
 room_speed=60;
 backgrounder()
-debug=false
+global.debug=false
 global.focus=sp_en1
 
 //i would set the sprite to this from the start, but it kinda doesn't let me put stuff in the room properly
@@ -67,9 +67,9 @@ if keyboard_check_pressed(ord("R"))
 
 //debuggin stuff
 if keyboard_check_pressed(ord("T")) {
-    debug = !debug
+    global.debug = !global.debug
 }
-if debug{
+if global.debug{
     if keyboard_check_pressed(ord("I")) {
         global.en1Kills++
     }
@@ -105,7 +105,7 @@ if debug{
           <argument>
             <kind>1</kind>
             <string>///debug sprite
-if debug {
+if global.debug {
     draw_sprite(s_wall,0,0,0)
 }
 </string>
