@@ -37,7 +37,7 @@
   <scripts name="scripts">
     <script>scripts\backgrounder.gml</script>
     <script>scripts\shooting.gml</script>
-    <script>scripts\upgrade.gml</script>
+    <script>scripts\counting.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="controllers">
