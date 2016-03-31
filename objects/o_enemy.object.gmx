@@ -31,7 +31,7 @@ dir=1
 b_dir=1
 down=4
 sprite_index = irandom_range(sp_en1,sp_en5)
-uping = true
+count = true
 </string>
           </argument>
         </arguments>
@@ -55,7 +55,7 @@ uping = true
           <argument>
             <kind>1</kind>
             <string>///addpalooza
-if uping {
+if count {
     switch (sprite_index) {
         case sp_en1:
             global.en1Kills++
