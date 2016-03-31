@@ -27,7 +27,26 @@
             <kind>1</kind>
             <string>///init
 image_speed=0
+depth=-10
+//var that sets the upgrade and the image_index
 monitor=0
+/*
+the number of enemies killed
+
+this var is here for because I need to divide it by a factor to determine
+the upgrade level and the image_index
+so, why I don't just divide the var by five?
+
+The thing is that I don't like repeating code, so on the child objects i can just set
+this var to the var I need and then divide it by the factor and use it on the parent object
+
+In the end, I'll need more calculations than a simple line...
+So I'd rather only have to change it once
+*/
+glaub=0
+//the actual factor
+//i can tune it if needed
+factor=5
 </string>
           </argument>
         </arguments>
@@ -50,9 +69,54 @@ monitor=0
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>///calculation
+monitor=floor(glaub/factor)
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>///animation
 //at the recieving entity you need to set at the start step the target global var
 image_index=monitor
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="64">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_text(x+20,y, glaub)
 </string>
           </argument>
         </arguments>
