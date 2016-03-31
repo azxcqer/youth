@@ -107,8 +107,15 @@ if !(place_meeting(x+a,y,o_wall))
 }
     else
     {
-        y+=down
-        dir=dir*-1
+        dir*=-1
+        if !(place_meeting(x,y+a,o_limiter))
+        {
+            y+=down
+        }
+        else {
+            firerate=0.5*room_speed
+            spd=spd_d*2
+        }
     }
 </string>
           </argument>
