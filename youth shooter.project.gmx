@@ -27,9 +27,10 @@
       <sprite>sprites\bar5</sprite>
       <sprite>sprites\bar3</sprite>
     </sprites>
-    <sprites name="bullets">
+    <sprites name="projectiles">
       <sprite>sprites\sp_bullet2</sprite>
       <sprite>sprites\sp_bullet</sprite>
+      <sprite>sprites\sp_missile</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
