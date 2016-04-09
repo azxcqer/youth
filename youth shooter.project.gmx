@@ -41,6 +41,7 @@
     <script>scripts\backgrounder.gml</script>
     <script>scripts\shooting.gml</script>
     <script>scripts\counting.gml</script>
+    <script>scripts\pow_init.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="controllers">

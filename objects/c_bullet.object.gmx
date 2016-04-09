@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>b_dir=0
 b_spd=1
+pow_init()
 </string>
           </argument>
         </arguments>

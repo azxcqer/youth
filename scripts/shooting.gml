@@ -21,6 +21,10 @@ with (b)
     b_dir = a.b_dir
     b_spd = a.b_spd
     image_yscale=-b_dir
+    //passing the pow
+    for (var i = 0; i<5;i++) {
+        pow[i]=a.pow[i]
+        } 
     }
 
 #define shooting_step

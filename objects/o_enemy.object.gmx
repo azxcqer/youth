@@ -32,6 +32,7 @@ b_dir=1
 down=4
 sprite_index = irandom_range(sp_en1,sp_en5)
 count = true
+life= 1
 </string>
           </argument>
         </arguments>
@@ -99,6 +100,7 @@ if count {
           <argument>
             <kind>1</kind>
             <string>///movement
+event_inherited();
 var a = sign(dir)*spd;
 
 if !(place_meeting(x+a,y,o_wall))

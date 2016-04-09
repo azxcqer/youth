@@ -60,6 +60,8 @@ max_shield=max_shield_d
           <argument>
             <kind>1</kind>
             <string>///key capture
+event_inherited();
+
 if keyboard_check(vk_right)
 or keyboard_check(ord("D"))
 {
