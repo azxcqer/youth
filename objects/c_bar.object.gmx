@@ -47,6 +47,7 @@ glaub=0
 //the actual factor
 //i can tune it if needed
 factor=5
+maxM=5
 </string>
           </argument>
         </arguments>
@@ -93,7 +94,11 @@ monitor=floor(glaub/factor)
             <kind>1</kind>
             <string>///animation
 //at the recieving entity you need to set at the start step the target global var
-image_index=monitor
+if monitor &lt;=  maxM {
+    image_index=monitor
+} else {
+    image_index=maxM
+    }
 </string>
           </argument>
         </arguments>
