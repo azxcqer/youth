@@ -1,0 +1,71 @@
+youth
+    concept
+        you control a ship
+            moving sideways
+            shooting
+        enemies spawns
+            they shoot too
+            they get stronger with time
+            they get more numerous
+            as you kill then, you get more powerfull against then
+        motherbase protects you
+            it shoots rockets at then
+            the rockets are not as fast as bullets
+            they never miss, tho
+        objective
+            survive
+        progression
+            motherbase is taking care of you (youth)
+                on the first stages, mothership is with you, during your training
+                it decides what kind of enemy will show up and what your're supossed to shoot
+                it takes care of the rest of enemies
+            motherbase leaves ("adulthood")
+                after you're "strong enough" motherbase leaves you for good
+            inevitable death (oh hey, what was you expecting?)
+                now that you have to handle all kinds of enemies by yourself and they're stronger, they'll simply overwhelm you.
+                I must make sure that by this point, you can't really compete with the enemies and fail
+        arcade
+            after beating the actual "story mode" you unlock arcade mode
+                no motherbase but you face off against the enemies when they're weak
+                it gets harder with time. you earn points for killing enemies
+                just try to get a highscore
+    art
+        background
+            some stars or space or something like that, I guess
+    code
+        upgrade system
+            non linear increas
+                make it a that other kind of progression thingie,   geometrical? I can't have it always leveling up on the same number or I can't increase dificulty by adding more enemies
+            
+            display how many enemies are needed to hit the upgrade
+                maybe, when it does level up, I can calculate the number of enemies needed (first upgrade requirement * level or something similar) and then instead of adding to a global var everytime an enemy dies, I can just subtract one. Then when it reachs 0, I trigger an upgrade and recalculate it and be happy. So I'll actually do this
+            
+            display the level too
+
+        mother base
+            floaty
+                needs to float up and down, just silly
+            shooting
+                targeting system
+                    needs to evaluate every enemy and decide the ones to shoot 
+                        it compares the enemy type and if it meets the criteria, adds it to an array
+                        if it meets and to another if it doesn't
+                        ignores enemies already processed
+
+                    needs to not shoot the same target twice
+                        after it shoots it needs to add the enemy to a list and not shoot at it
+                        the list needs to be purged whenever an enemy dies, as to not consume all the fucing memory
+            emergency protocol
+                when you're in too much danger, it will do something to protect the player
+                    bullet elimination protocol
+                        destroy all enemy bullets
+                    proximity protocol
+                        when the enemy get's too close, shoots at all of then at once
+    sound
+        bullets
+        explosions
+        
+
+    music
+        story
+        arcade
